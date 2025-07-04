@@ -87,13 +87,17 @@ python LoadDocumentWithGoogleDrive.py
 ```bash
 # Create embeddings and store in ChromaDB
 python GenerateEmbeddings.py
+# Use the proper rag_query model for extrapolation on given documents (still under development)
+python rag_query.py
 ```
 
 ### 7. Start Chat Interface
 
 ```bash
 # Interactive chat with your documents
-python ChatInterface.py
+# One of two options:
+1. python ChatInterface.py # without the rag_query (without extrapolation)
+2. python NewChatInterface.py # with the rag_query (with extrapolation)
 ```
 
 ## 📁 Project Structure
