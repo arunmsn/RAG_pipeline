@@ -85,7 +85,7 @@ def main():
     if llm is None:
         return
 
-    print("\n💬 You can now ask questions! Type 'exit' to quit.\n")
+    print("\n💬 You can now ask questions! Type 'exit' or 'bye' to quit.\n")
     while True:
         user_input = input("Your question: ").strip()
         if user_input.lower() == "exit" or user_input.lower() == "bye":
