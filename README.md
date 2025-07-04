@@ -75,6 +75,14 @@ ollama pull mistral
 ### 5. Load Your Documents
 
 ```bash
+# Go to LoadDocument.py using either vim/nano
+vim LoadDocument.py OR nano LoadDocument.py
+
+# Change the DOCS_DIR = "<DIRECTORY>"
+# to whichever directory needed.
+
+# Save approprately (according to vim/nano)
+
 # Load documents from local directory
 python LoadDocument.py
 
