@@ -1,0 +1,19 @@
+# Create a virtual environment
+python -m venv my_rag_env
+
+# Activate the virtual environment
+# On Windows:
+# my_rag_env\Scripts\activate
+# On macOS/Linux:
+# source my_rag_env/bin/activate
+
+# Install necessary Python libraries
+pip install langchain  # Framework for building LLM applications
+pip install unstructured[all-docs]  # For loading various document types (PDFs, DOCX, TXT etc.)
+pip install pypdf  # If you primarily have PDFs
+pip install chromadb  # Local vector database
+pip install "unstructured[google-drive]"
+pip install sentence-transformers  # For local embedding models
+pip install beautifulsoup4  # Often useful for parsing HTML if you have web pages
+brew install poppler
+ pip install langchain_openai
