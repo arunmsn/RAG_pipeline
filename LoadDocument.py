@@ -4,7 +4,7 @@ import os
 
 # Define the directory where your documents are stored
 # Note: The folder name has a trailing space!
-DOCS_DIR = "/Users/arunmsn/Desktop/Notebooks/StoryBooks"
+DOCS_DIR = "<DIRECTORY>"
 
 print("Loading Privacy Impact Assessment documents...")
 print(f"Checking directory: {DOCS_DIR}")
